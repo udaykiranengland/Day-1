@@ -1,0 +1,81 @@
+=================================================================
+
+Tasks
+
+1: read three values  and print maximum of three
+#num1 = float(input("Enter first number: "))
+#num2 = float(input("Enter second number: "))
+#num3 = float(input("Enter third number: "))
+
+#if (num1 >= num2) and (num1 >= num3): largest = num1
+#elif (num2 >= num1) and (num2 >= num3): largest = num2
+#else: largest = num3
+#print("The largest number is ", largest)
+
+
+
+
+
+
+2. read base and heigth of a triangle , print it area formual =0.5 * base * height
+
+sol :
+##read base and heigth of a triangle , print it area formual =0.5 * base * height
+
+#print('The area of the triangle is %.2f'%(0.5*float(input('Enter the base of the triangle :'))*float(input('Enter the height of the triangle:'))))
+
+
+
+
+
+
+3. read marks of a student, print pass if marks is 50 and above, otherwise print fail.
+
+Sol:
+##read marks of a student, print pass if marks is 50 and above, otherwise print fail.
+#x=float(input("Enter student's marks: "))
+#y=50
+#if x>=y:print("the student passed this course with {0} marks.".format(x)) 
+#else:print("the student failed this course.")
+
+
+
+
+
+
+
+4.  read marks of a student and print grade based on the rule given below
+
+     marks             Grade
+
+      >=80             First class
+  
+     60-79             Second class
+
+     50-59             Third class
+
+    <50                Fail
+
+Sol:
+
+#n=int(input("Enter the Marks: "))
+#if(n>=80):print("First Class")
+#elif(n> 60):print("Second Class")
+#elif(n>50):print("Thrid Class")
+#elif(n<50): print("fail") 
+
+
+
+
+5. Read value for N and print odd nos from 1 to n
+   
+   using for  and while statements
+
+#num1 = int(input("give any number : "))
+#num2 = 1
+#while num2 <= num1:
+#    if(num2 % 2 != 0): print("the possible odd numbers are {0}".format(num2))
+#    num2 = num2 + 1
+========================================================================
+https://www.onlinegdb.com/online_python_compiler
+========================================================================
